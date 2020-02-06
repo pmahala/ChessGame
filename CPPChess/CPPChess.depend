@@ -1,12 +1,29 @@
 # depslib dependency file v1.0
-1580905984 source:c:\codeblocksprojects\cppchess\main.cpp
+1580985412 source:c:\codeblocksprojects\cppchess\main.cpp
 	<iostream>
 	"GameBoard.h"
 
-1580909315 source:c:\codeblocksprojects\cppchess\src\gameboard.cpp
+1580994730 source:c:\codeblocksprojects\cppchess\src\gameboard.cpp
 	"GameBoard.h"
-	<iostream>
+	"Pawn.h"
+	<stdlib.h>
 
-1580909218 c:\codeblocksprojects\cppchess\include\gameboard.h
+1580994625 c:\codeblocksprojects\cppchess\include\gameboard.h
 	<vector>
+	"GamePiece.h"
+	<iostream>
+	<string>
+
+1580994456 c:\codeblocksprojects\cppchess\include\gamepiece.h
+	<string>
+
+1580994477 source:c:\codeblocksprojects\cppchess\src\gamepiece.cpp
+	"GamePiece.h"
+
+1580994488 source:c:\codeblocksprojects\cppchess\src\pawn.cpp
+	"Pawn.h"
+	"GameBoard.h"
+
+1580994503 c:\codeblocksprojects\cppchess\include\pawn.h
+	"GamePiece.h"
 

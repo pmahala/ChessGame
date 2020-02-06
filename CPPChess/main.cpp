@@ -5,9 +5,15 @@ using namespace std;
 
 int main()
 {
-    GameBoard board;
-    board.initBoard();
-    board.dispBoard();
+
+    GameBoard::initBoard();
+    //GameBoard::dispBoard();
+
+    while(GameBoard::runGame())
+    {
+
+    }
+
 
     return 0;
 }
