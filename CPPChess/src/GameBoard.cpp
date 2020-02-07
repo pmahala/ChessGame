@@ -1,5 +1,6 @@
 #include "GameBoard.h"
 #include "Pawn.h"
+#include "Rook.h"
 #include<stdlib.h>
 
 
@@ -16,7 +17,7 @@ void GameBoard::initBoard()
     {
         chessBoard.push_back(blankPos);
     }
-
+    ////////////////PLACING PAWNS///////////////////////////////////////
     for(int i{0}; i < 8; i++)
     {
         GamePiece *p = new Pawn(6,i,true,"w");
@@ -30,6 +31,25 @@ void GameBoard::initBoard()
         onBoardBlacks.push_back(p);
         chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
     }
+
+
+    /////////////////////PLACING ROOKS////////////////////////////////
+    GamePiece *p = new Rook(0,0,false,"Rb");
+    onBoardBlacks.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Rook(0,7,false,"Rb");
+    onBoardBlacks.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Rook(7,7,true,"Rw");
+    onBoardBlacks.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Rook(7,0,true,"Rw");
+    onBoardBlacks.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
 }
 
 

@@ -20,6 +20,15 @@ bool Pawn::MovePiece(int rowPos,int colPos)
                 }
 
             }
+            for(size_t i{0}; i < GameBoard::getWhitePieces().size();i++)
+            {
+                if(GameBoard::getWhitePieces().at(i) -> getRowPos() == rowPos && GameBoard::getWhitePieces().at(i) -> getColPos() == colPos)
+                {
+
+                    return false;
+                }
+
+            }
             return GamePiece::MovePiece(rowPos,colPos);
         }
 
@@ -43,6 +52,15 @@ bool Pawn::MovePiece(int rowPos,int colPos)
             for(size_t i{0}; i < GameBoard::getWhitePieces().size();i++)
             {
                 if(GameBoard::getWhitePieces().at(i) -> getRowPos() == rowPos && GameBoard::getWhitePieces().at(i) -> getColPos() == colPos)
+                {
+
+                    return false;
+                }
+
+            }
+            for(size_t i{0}; i < GameBoard::getBlackPieces().size();i++)
+            {
+                if(GameBoard::getBlackPieces().at(i) -> getRowPos() == rowPos && GameBoard::getBlackPieces().at(i) -> getColPos() == colPos)
                 {
 
                     return false;

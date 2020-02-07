@@ -7,13 +7,6 @@ int main()
 {
 
     GameBoard::initBoard();
-    //GameBoard::dispBoard();
-
-    while(GameBoard::runGame())
-    {
-
-    }
-
-
+    while(GameBoard::runGame());  //Game Loop
     return 0;
 }
