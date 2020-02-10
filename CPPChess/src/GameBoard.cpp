@@ -1,6 +1,7 @@
 #include "GameBoard.h"
 #include "Pawn.h"
 #include "Rook.h"
+#include "Bishop.h"
 #include<stdlib.h>
 
 
@@ -43,10 +44,28 @@ void GameBoard::initBoard()
     chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
 
     p = new Rook(7,7,true,"Rw");
-    onBoardBlacks.push_back(p);
+    onBoardWhites.push_back(p);
     chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
 
     p = new Rook(7,0,true,"Rw");
+    onBoardWhites.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    ///////////////////PLACING BISHOPS//////////////////////////////
+
+    p = new Bishop(7,2,true,"Bw");
+    onBoardWhites.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Bishop(7,5,true,"Bw");
+    onBoardWhites.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Bishop(0,2,false,"Bb");
+    onBoardBlacks.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Bishop(0,5,false,"Bb");
     onBoardBlacks.push_back(p);
     chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
 

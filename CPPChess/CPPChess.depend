@@ -35,3 +35,48 @@
 1580995260 c:\codeblocksprojects\cppchess\include\rook.h
 	"GamePiece.h"
 
+1581013094 source:d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\main.cpp
+	<iostream>
+	"GameBoard.h"
+
+1581013094 d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\include\gameboard.h
+	<vector>
+	"GamePiece.h"
+	<iostream>
+	<string>
+
+1581013094 d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\include\gamepiece.h
+	<string>
+
+1581354803 source:d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\src\gameboard.cpp
+	"GameBoard.h"
+	"Pawn.h"
+	"Rook.h"
+	"Bishop.h"
+	<stdlib.h>
+
+1581013094 d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\include\pawn.h
+	"GamePiece.h"
+
+1581013094 d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\include\rook.h
+	"GamePiece.h"
+
+1581013094 source:d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\src\gamepiece.cpp
+	"GamePiece.h"
+
+1581013094 source:d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\src\pawn.cpp
+	"Pawn.h"
+	"GameBoard.h"
+
+1581013094 source:d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\src\rook.cpp
+	"Rook.h"
+	"GameBoard.h"
+
+1581354652 source:d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\src\bishop.cpp
+	"Bishop.h"
+	"GameBoard.h"
+	<math.h>
+
+1581353490 d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\include\bishop.h
+	"GamePiece.h"
+

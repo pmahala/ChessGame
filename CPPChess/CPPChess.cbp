@@ -34,11 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Bishop.h" />
 		<Unit filename="include/GameBoard.h" />
 		<Unit filename="include/GamePiece.h" />
 		<Unit filename="include/Pawn.h" />
 		<Unit filename="include/Rook.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Bishop.cpp" />
 		<Unit filename="src/GameBoard.cpp" />
 		<Unit filename="src/GamePiece.cpp" />
 		<Unit filename="src/Pawn.cpp" />
