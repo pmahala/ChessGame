@@ -37,12 +37,14 @@
 		<Unit filename="include/Bishop.h" />
 		<Unit filename="include/GameBoard.h" />
 		<Unit filename="include/GamePiece.h" />
+		<Unit filename="include/Knight.h" />
 		<Unit filename="include/Pawn.h" />
 		<Unit filename="include/Rook.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Bishop.cpp" />
 		<Unit filename="src/GameBoard.cpp" />
 		<Unit filename="src/GamePiece.cpp" />
+		<Unit filename="src/Knight.cpp" />
 		<Unit filename="src/Pawn.cpp" />
 		<Unit filename="src/Rook.cpp" />
 		<Extensions>

@@ -2,6 +2,7 @@
 #include "Pawn.h"
 #include "Rook.h"
 #include "Bishop.h"
+#include "Knight.h"
 #include<stdlib.h>
 
 
@@ -68,6 +69,27 @@ void GameBoard::initBoard()
     p = new Bishop(0,5,false,"Bb");
     onBoardBlacks.push_back(p);
     chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+
+    //////////////////PLACING KNIGHTS/////////////////////////////////////
+
+    p = new Knight(7,1,true,"Nw");
+    onBoardWhites.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Knight(7,6,true,"Nw");
+    onBoardWhites.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Knight(0,1,false,"Nb");
+    onBoardBlacks.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Knight(0,6,false,"Nb");
+    onBoardBlacks.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+    ///////////////////////////////////////////////////////
+
 
 }
 

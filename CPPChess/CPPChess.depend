@@ -1,38 +1,40 @@
 # depslib dependency file v1.0
-1580995095 source:c:\codeblocksprojects\cppchess\main.cpp
+1581355742 source:c:\codeblocksprojects\cppchess\main.cpp
 	<iostream>
 	"GameBoard.h"
 
-1581058612 source:c:\codeblocksprojects\cppchess\src\gameboard.cpp
+1581418115 source:c:\codeblocksprojects\cppchess\src\gameboard.cpp
 	"GameBoard.h"
 	"Pawn.h"
 	"Rook.h"
+	"Bishop.h"
+	"Knight.h"
 	<stdlib.h>
 
-1580994625 c:\codeblocksprojects\cppchess\include\gameboard.h
+1581355742 c:\codeblocksprojects\cppchess\include\gameboard.h
 	<vector>
 	"GamePiece.h"
 	<iostream>
 	<string>
 
-1580994456 c:\codeblocksprojects\cppchess\include\gamepiece.h
+1581355742 c:\codeblocksprojects\cppchess\include\gamepiece.h
 	<string>
 
-1580994477 source:c:\codeblocksprojects\cppchess\src\gamepiece.cpp
+1581355742 source:c:\codeblocksprojects\cppchess\src\gamepiece.cpp
 	"GamePiece.h"
 
-1581056082 source:c:\codeblocksprojects\cppchess\src\pawn.cpp
+1581355742 source:c:\codeblocksprojects\cppchess\src\pawn.cpp
 	"Pawn.h"
 	"GameBoard.h"
 
-1580994503 c:\codeblocksprojects\cppchess\include\pawn.h
+1581355742 c:\codeblocksprojects\cppchess\include\pawn.h
 	"GamePiece.h"
 
-1581057793 source:c:\codeblocksprojects\cppchess\src\rook.cpp
+1581355742 source:c:\codeblocksprojects\cppchess\src\rook.cpp
 	"Rook.h"
 	"GameBoard.h"
 
-1580995260 c:\codeblocksprojects\cppchess\include\rook.h
+1581355742 c:\codeblocksprojects\cppchess\include\rook.h
 	"GamePiece.h"
 
 1581013094 source:d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\main.cpp
@@ -78,5 +80,21 @@
 	<math.h>
 
 1581353490 d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\include\bishop.h
+	"GamePiece.h"
+
+1581355742 source:c:\codeblocksprojects\cppchess\src\bishop.cpp
+	"Bishop.h"
+	"GameBoard.h"
+	<math.h>
+
+1581355742 c:\codeblocksprojects\cppchess\include\bishop.h
+	"GamePiece.h"
+
+1581420143 source:c:\codeblocksprojects\cppchess\src\knight.cpp
+	"Knight.h"
+	"GameBoard.h"
+	<math.h>
+
+1581403062 c:\codeblocksprojects\cppchess\include\knight.h
 	"GamePiece.h"
 
