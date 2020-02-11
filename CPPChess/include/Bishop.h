@@ -2,7 +2,7 @@
 #define BISHOP_H
 #include"GamePiece.h"
 
-class Bishop: public GamePiece
+class Bishop: virtual public GamePiece
 {
     public:
         Bishop(int rowPos,int colPos,bool isWhite,std::string symbol);

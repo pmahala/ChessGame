@@ -3,6 +3,7 @@
 #include "Rook.h"
 #include "Bishop.h"
 #include "Knight.h"
+#include "Queen.h"
 #include<stdlib.h>
 
 
@@ -88,7 +89,15 @@ void GameBoard::initBoard()
     p = new Knight(0,6,false,"Nb");
     onBoardBlacks.push_back(p);
     chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
-    ///////////////////////////////////////////////////////
+    ////////////////////////QUEEN///////////////////////
+
+    p = new Queen(7,3,true,"Qw");
+    onBoardWhites.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
+
+    p = new Queen(0,3,true,"Qb");
+    onBoardBlacks.push_back(p);
+    chessBoard.at(p->getRowPos()).at(p->getColPos()) = p->getSymbol();
 
 
 }

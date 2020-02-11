@@ -3,7 +3,7 @@
 #include"GamePiece.h"
 
 
-class Rook: public GamePiece
+class Rook: virtual public GamePiece
 {
     public:
         Rook(int rowPos,int colPos,bool isWhite,std::string symbol);

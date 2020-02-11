@@ -3,7 +3,7 @@
 	<iostream>
 	"GameBoard.h"
 
-1581418115 source:c:\codeblocksprojects\cppchess\src\gameboard.cpp
+1581420724 source:c:\codeblocksprojects\cppchess\src\gameboard.cpp
 	"GameBoard.h"
 	"Pawn.h"
 	"Rook.h"
@@ -34,7 +34,7 @@
 	"Rook.h"
 	"GameBoard.h"
 
-1581355742 c:\codeblocksprojects\cppchess\include\rook.h
+1581426000 c:\codeblocksprojects\cppchess\include\rook.h
 	"GamePiece.h"
 
 1581013094 source:d:\codeblocksproject\chessgame-master_2\chessgame-master\cppchess\main.cpp
@@ -87,7 +87,7 @@
 	"GameBoard.h"
 	<math.h>
 
-1581355742 c:\codeblocksprojects\cppchess\include\bishop.h
+1581426031 c:\codeblocksprojects\cppchess\include\bishop.h
 	"GamePiece.h"
 
 1581420143 source:c:\codeblocksprojects\cppchess\src\knight.cpp
@@ -97,4 +97,11 @@
 
 1581403062 c:\codeblocksprojects\cppchess\include\knight.h
 	"GamePiece.h"
+
+1581426735 source:c:\codeblocksprojects\cppchess\src\queen.cpp
+	"Queen.h"
+
+1581426128 c:\codeblocksprojects\cppchess\include\queen.h
+	"Rook.h"
+	"Bishop.h"
 
